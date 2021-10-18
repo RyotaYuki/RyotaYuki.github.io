@@ -12,6 +12,7 @@ baseurl: '/blog'
 # otherwise, the layout language will use the default value of 'en'.
 lang: ja-JP
 
+
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Tokyo
 
