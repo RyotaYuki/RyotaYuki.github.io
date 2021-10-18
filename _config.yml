@@ -5,12 +5,12 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: ''
+baseurl: '/blog'
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ja
+lang: ja-JP
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Tokyo
@@ -34,6 +34,9 @@ github:
 twitter:
   username: NKC_RyotaYuki            # change to your twitter username
 
+facebook:
+  username: Ryota.Yuki38
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -41,13 +44,13 @@ social:
   email: nkcgta.ryota.yuki@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/NKC_RyotaYuki      # change to your twitter homepage
-    - https://github.com/RyotaYuki       # change to your github homepage
+    #- https://twitter.com/NKC_RyotaYuki      # change to your twitter homepage
+    #- https://github.com/RyotaYuki       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.facebook.com/Ryota.Yuki38
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+# google_site_verification: google_meta_tag_verification # change to your verification string
 
 # ↑ --------------------------
 
@@ -80,7 +83,7 @@ theme_mode:   dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'assets\img\MyIcon.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
